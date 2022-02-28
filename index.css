@@ -1,0 +1,77 @@
+.content{
+    margin: 80px auto 0;
+    width: 640px;
+    height: 640px;
+    position: relative;
+    /* border: 1px solid; */
+}
+.btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+.btn button{
+    /* 重置样式 */
+    background: none;
+    background-size: 100% 100% !important;
+
+    cursor: pointer;
+
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.startBtn button{
+    width: 200px;
+    height: 80px;
+    background: url(./images/startGame.png);
+    margin-left: -100px;
+    margin-top: -40px;
+}
+.pauseBtn{
+    display: none;
+}
+.pauseBtn button{
+    width: 70px;
+    height: 70px;
+    background: url(./images/start.png);
+    margin-left: -35px;
+    margin-top: -35px;
+}
+#snackWrap{
+    width: 600px;
+    height: 600px;
+    border: 20px solid #7dd9ff;
+    background: #225675;
+    /* box-sizing: border-box; */
+    position: relative;
+    /* top: -20px;
+    left: -20px; */
+}
+#snackWrap div{
+    width: 20px;
+    height: 20px;
+}
+#snackWrap .snackHead{
+    background-size: cover !important;
+    background: url(./images/snake.png);
+}
+#snackWrap .snackBody{
+    background-color: #9ddbb1;
+    border-radius: 50%;
+}
+#snackWrap .food{
+    background: url(./images/food.png);
+    background-size: 100% 100% !important;
+}
+
+
+
+
